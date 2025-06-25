@@ -1,0 +1,29 @@
+{
+  "name": "wck-new-anonym-project",
+  "version": "1.0.0",
+  "description": "WCK-New-Anonym-Project",
+  "main": "main.js",
+  "author": {
+    "name": "wicker"
+  },
+  "dependencies": {
+    "@antiadmin/anticaptchaofficial": "^1.0.29",
+    "2captcha": "^3.0.5",
+    "capsolver": "^1.0.1",
+    "capsolver-npm": "^1.0.5",
+    "chalk": "^4.1.2",
+    "discord.js-selfbot-v13": "^2.12.2",
+    "fs": "^0.0.1-security",
+    "image-to-base64": "^2.2.0",
+    "interval-promise": "^1.4.0",
+    "moment": "^2.29.4",
+    "puppeteer": "^19.8.5",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "undici": "^5.22.1",
+    "util": "^0.12.5",
+    "wio.db": "^4.0.22"
+  }
+}

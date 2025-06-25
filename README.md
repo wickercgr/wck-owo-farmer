@@ -1,6 +1,3 @@
-# WCK-New-Anonym-Project
-
-
 # wck-owo-farmer
 WCK Discord Owo Farmer 2023 | Premium+ | API | Node.js
 

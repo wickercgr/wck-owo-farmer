@@ -9,7 +9,7 @@ const { JsonDatabase } = require("wio.db");
 const db = new JsonDatabase({ databasePath: "./database.json" });
 /* TWO CAPTCHA */
 const twocaptcha = require("2captcha");
-const twocaptchasolver = new twocaptcha.Solver("c1bfb04bc5f0335faa239fc7c054756e");
+const twocaptchasolver = new twocaptcha.Solver("");
 
 ac.setAPIKey('c4ec40f7ea240d50686c42949bee5f7f');
 
@@ -353,5 +353,6 @@ client.on('messageCreate', async message => {
         console.log(chalk.red("[BAN] ") + chalk.rgb(204, 51, 153)("! TOKEN BANNED FOR ! ") + chalk.rgb(230, 184, 0)(bantime + " hours"));
         continuefilter = false;
     }
+
 
 });
